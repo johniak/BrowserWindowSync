@@ -1,0 +1,5 @@
+# js and mac os and idea gitignore
+node_modules
+.idea
+.DS_Store
+*.log

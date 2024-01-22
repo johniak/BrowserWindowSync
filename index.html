@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Home</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      canvas {
+        display: block; /* Removes the margin in the bottom */
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.3/dat.gui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="perlin.js"></script>
+  </head>
+  <body>
+    <canvas id="maincanvas"></canvas>
+    <script src="/WindowsManager.js"></script>
+    <script src="/Engine.js"></script>
+  </body>
+</html>
